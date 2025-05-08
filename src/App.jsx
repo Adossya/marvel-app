@@ -14,7 +14,7 @@ import ComicsItem from './components/comicsItem/ComicsItem'
 function App() {
 
   return (
-    <Router>
+    <Router basename='/marvel-app'>
         <>
             <Header/>
             <Routes>         

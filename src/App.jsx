@@ -21,8 +21,8 @@ function App() {
 
               <Route path='/' element={<MainPage/>}/>
 
-              <Route path='/comics' element={<ComicsPage/>}/>
-              <Route path='/comics/:comicsId' element={<ComicsItem/>}/>
+              <Route path='comics' element={<ComicsPage/>}/>
+              <Route path='comics/:comicsId' element={<ComicsItem/>}/>
               
               <Route path='*' element={<Page404/>}/>
 

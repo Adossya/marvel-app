@@ -1,0 +1,45 @@
+.header {
+
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center
+    }
+
+
+    &__logo {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 2.8rem;
+        span {
+            color: #9f0013;
+        }
+    }
+
+
+    &__path {
+        display: flex;
+        align-items: center;
+
+        gap: 0.5rem;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 2.4rem;
+
+        &--link.active {
+            color: #9f0013;
+        }
+    }
+
+
+
+
+}

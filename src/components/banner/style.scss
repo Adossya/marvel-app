@@ -1,0 +1,21 @@
+.banner {
+    height: 10rem;
+    background-color: #232222;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4.5rem;
+    padding-right: 2.5rem;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        gap: 8.3rem;
+    }
+    &__descr {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+        width: 23.5rem;
+    }
+}

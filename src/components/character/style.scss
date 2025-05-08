@@ -1,0 +1,108 @@
+.character {
+    height: 25rem;
+    
+    
+    &__wrapper {
+        display: flex;
+        align-items: center;
+
+    }
+
+    &__info {
+        width: 50%;
+        height: 25rem;
+        padding: 3.5rem 4rem;
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+
+    }
+
+    &__main {
+        display: flex;
+        gap: 3rem;
+    }
+    &__img {
+        
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+        object-position: 0 0;
+    }
+    &__hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 2.2rem;
+
+    }
+    &__description {
+        margin-top: 1.3rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.4rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        overflow: hidden;
+    }
+    &__btns {
+
+        display: flex;
+        gap: 3rem;
+    }
+
+}
+
+.random {
+
+    &__wrapper {
+        position: relative;
+        width: 50%;
+        height: 25rem;
+        padding: 3.5rem 4rem 3.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #232222;
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    &__description {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+
+
+        p:last-child {
+            margin-top: 4rem;
+        }
+    }
+    &__btn {
+        margin-top: .875rem;
+    }
+
+    &__img-shield {
+        width: 10rem;
+        height: 10rem;
+        object-fit: contain;
+        position: absolute;
+        right: 6.7rem;
+        bottom: 1.4rem;
+    }
+    &__img-mjolnir {
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
+        transform: rotate(-1deg);
+        position: absolute;
+        bottom: 1.4rem;
+        right: -4.5rem;
+    }
+}
